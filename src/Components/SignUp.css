@@ -1,0 +1,26 @@
+.ct {
+    border-radius: 10%;
+    background-color: darkgrey;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.item1 {
+    background-color: rgb(1, 1, 133);
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+}
+
+.col-sm {
+    flex: 1;
+}

@@ -1,0 +1,118 @@
+.Menu {
+  color: black;
+  display: grid;
+  background-color: rgb(1, 1, 133);
+  grid-template-columns: 1000px auto auto auto;
+  grid-template-rows: 65px;
+}
+
+.item1 {
+  background-color: rgb(1, 1, 133);
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.popover {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: black;
+}
+
+.popover1 {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: black;
+}
+
+.item2 {
+
+  position: relative;
+  display: inline-block;
+  background-color: rgb(1, 1, 133);
+  color: white;
+  display: grid;
+  font-weight: bold;
+  place-items: center;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+
+
+
+
+
+.about {
+
+  position: relative;
+  display: inline-block;
+  background-color: rgb(1, 1, 133);
+  color: white;
+  display: grid;
+  font-weight: bold;
+  place-items: center;
+
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  justify-content: space-evenly;
+  overflow: hidden;
+  background-image: url(https://media.istockphoto.com/id/1137484444/photo/modern-bedroom-with-white-bed.jpg?s=612x612&w=0&k=20&c=j-qQn-adApYVX140YG1bYytJo9hkpLHXdJJFqc9zAPU=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-width: 3px !important;
+  border-color: black !important;
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: black !important;
+}
+
+.submit {
+  height: 55px;
+  width: 200px;
+  color: black;
+  background-color: black;
+}
+
+.dup {
+  color: black
+}
+
+.city {
+  height: 55px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

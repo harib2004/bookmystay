@@ -1,61 +1,26 @@
-.main-footer {
-    text-align: center;
+.mainFooter {
     color: white;
-    background-color: rgb(1, 1, 133);
-    padding-top: 3em;
-    position: relative;
+    background-color: black;
     bottom: 0;
     width: 100%;
-
-}
-
-.Button {
-
-
-    background-color: black;
-    color: white;
-    border-radius: 10%;
-    transition: background-color 0.3s ease;
-    border: none;
-    cursor: pointer;
 }
 
 .list {
-    list-style: none;
-    text-align: flex-start;
+    list-style-type: none;
 }
-
-
 
 .row {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    text-align: center;
-    margin-left: 15px;
-    gap: 20px;
 }
 
 .col {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    text-align: start;
-    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.heading {
-    text-align: center;
-    height: fit-content;
-    width: fit-content;
-}
-
-.home {
-    display: inline-block;
-    padding: 5px 5px;
-
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+#c {
+    cursor: pointer;
 }

@@ -40,8 +40,10 @@ export default function MyComponent() {
         <button className="item2" onClick={() => { navigate("/signin") }}>LOG IN</button>
       </div>
 
-      <div>
+      <div className='album'>
         <Album />
+      </div>
+      <div>
         <Footer />
       </div>
 

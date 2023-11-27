@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Firstname": "H",
+      "Lastname": "B",
+      "Email": "hb@bms.com",
+      "Password": "nothing"
+    },
+    {
+      "FirstName": "HB",
+      "LastName": "S",
+      "Email": "HBS@bms.com",
+      "Password": "nothin",
+      "id": 2
+    },
+    {
+      "FirstName": "Gowtham",
+      "LastName": "S",
+      "Email": "gowtham3759@gmail.com",
+      "Password": "",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

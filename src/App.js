@@ -6,6 +6,11 @@ import SignUp from './Components/SignUp';
 import MyComponent from './Components/Home/Main';
 import Blog from './Components/Blog';
 import Album from './Components/Home/destinations';
+import SampleSignIn from './Components/samplesign';
+import Hotels from './Components/Hotels';
+import Search from './Components/Home/search';
+
+
 
 
 
@@ -24,6 +29,7 @@ function App() {
           <Route path='/signup' element={<SignUp />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='album' element={<Album />} />
+          <Route path='search' element={<Search />} />
 
 
 

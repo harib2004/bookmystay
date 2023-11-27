@@ -1,0 +1,23 @@
+.outer {
+    display: grid;
+    grid-template-columns: 700px 700px;
+}
+
+.cards {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    margin-bottom: 0px;
+    margin-top: 400px;
+}
+
+.col-sm {
+    flex: 1;
+}
